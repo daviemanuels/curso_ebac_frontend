@@ -10,11 +10,14 @@
 <body>
     <div class="container">
         <h1>Validar campos -> B é maior que A?</h1>
-        <form>
-            <input type="number" name="" id="" placeholder="Primeiro número" required>
-            <input type="number" name="" id="" placeholder="Segundo número" required>
-            <button type="submit">Validar campos</button>
+        <form id="form-validation">
+            <input type="number" name="" id="numberOne" placeholder="Primeiro número" required>
+            <input type="number" name="" id="numberTwo" placeholder="Segundo número" required>
+            <button type="submit" id="button-validation">Validar campos</button>
         </form>
+        <p class="messageSuccess"></p>
+        <p class="errorMessage">Teste</p>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>

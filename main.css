@@ -41,3 +41,19 @@ button {
 button:hover {
     background-color: #3c3cff;
 }
+
+.messageSuccess, .errorMessage {
+    width: 400px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+
+.messageSuccess {
+    background-color: green;
+}
+
+.errorMessage {
+    background-color: red;
+}
