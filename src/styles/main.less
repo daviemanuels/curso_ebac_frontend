@@ -1,0 +1,36 @@
+@corDeFundo: #c42525;
+@corDoTexto: #fff;
+@corDoFundoDoBotao: #053069;
+@corDoTextoDoBotao: #fff;
+
+body {
+    background-color: @corDeFundo;
+}
+
+h1, h2 {
+    color: @corDoTexto;
+}
+
+main {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+}
+
+button {
+    padding: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 16px;
+    border-radius: 8px;
+    background-color: @corDoFundoDoBotao;
+    color: @corDoTextoDoBotao;
+}
+
+#aparecer {
+    padding: 16px;
+    display: none;
+}
