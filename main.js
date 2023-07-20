@@ -19,7 +19,7 @@ function Carro(marca, modelo, valor) {
     }
 }
 
-function FordKa(marca) {
+function Ford(marca) {
     Carro.call(this, marca, "Ford Ka", 35000);
 
     this.desconto = function() {
@@ -28,7 +28,7 @@ function FordKa(marca) {
     }
 }
 
-function FiatUno(marca) {
+function Fiat(marca) {
     Carro.call(this, marca, "Fiat Uno", 27000);
 
     this.desconto = function() {
@@ -38,8 +38,8 @@ function FiatUno(marca) {
 }
 
 const carro1 = new Carro("Hyundai", "Creta", 55000);
-const ford = new FordKa("Ford");
-const fiat = new FiatUno("Fiat");
+const ford = new Ford("Ford");
+const fiat = new Fiat("Fiat");
 
 carro1.desconto();
 console.log(carro1.getValor());
