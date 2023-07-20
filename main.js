@@ -38,14 +38,14 @@ function Fiat(marca) {
 }
 
 const carro1 = new Carro("Hyundai", "Creta", 55000);
-const ford = new Ford("Ford");
-const fiat = new Fiat("Fiat");
+const carro2 = new Ford("Ford");
+const carro3 = new Fiat("Fiat");
 
 carro1.desconto();
 console.log(carro1.getValor());
 
-ford.desconto();
-console.log(ford.getValor());
+carro2.desconto();
+console.log(carro2.getValor());
 
-fiat.desconto();
-console.log(fiat.getValor());
+carro3.desconto();
+console.log(carro3.getValor());
